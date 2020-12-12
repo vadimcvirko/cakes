@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+			<div class="intro">
+				<div class="intro__body _container">
+					<h2 class="intro__title title">Торты на заказ</h2>
+					<div class="intro__desc">Ручная работа</div>
+					<button class="intro__button btn">Выбрать торт</button>
+					<div class="intro__info info-intro">
+						<div class="info-intro__item info-intro__item--fixings">
+							<img src="./img/fixings_icon.png" alt="" class="info-intro__image">
+							<div class="info-intro__text">Натуральные ингредиенты</div>
+
+						</div>
+						<div class="info-intro__item info-intro__item--delivery">
+							<img src="./img/delivery.png" alt="" class="info-intro__image">
+							<div class="info-intro__text">Доставка бесплатнопри заказе от 2000 рублей*</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cakes">
+				<div class="cakes__container _container">
+					<div class="cakes__body">
+						<div class="cakes__block block-cakes">
+							<div class="block-cakes__item block-cakes__item-bg">
+								<div class="block-cakes__title">Классические
+									<span class="block-cakes__counter">24 вида</span>
+								</div>
+								<img src="./img/imgBg.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+							<div class="block-cakes__item">
+								<div class="block-cakes__title">Муссовые
+									<span class="block-cakes__counter">12 видов</span>
+								</div>
+								<img src="./img/img_1.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+							<div class="block-cakes__item">
+								<div class="block-cakes__title">Свадебные
+									<span class="block-cakes__counter">18 видов</span>
+								</div>
+								<img src="./img/img_2.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+							<div class="block-cakes__item block-cakes__item-bg">
+								<div class="block-cakes__title">Детские
+									<span class="block-cakes__counter">12 видов</span>
+								</div>
+								<img src="./img/imgBg_2.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+							<div class="block-cakes__item">
+								<div class="block-cakes__title">Мужчинам
+									<span class="block-cakes__counter">24 вида</span>
+								</div>
+								<img src="./img/img_3.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+
+							<div class="block-cakes__item">
+								<div class="block-cakes__title">Женщинам
+									<span class="block-cakes__counter">24 вида</span>
+								</div>
+								<img src="./img/img_4.jpg" alt="" class="block-cakes__img">
+								<a href="#" class="block-cakes__link">Смотреть</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="order _container">
+				<h3 class="order__title">Индивидуальный заказ</h3>
+				<div class="order__desc">Соберите торт в 3 шага</div>
+				<form action="" class="order__form form-order">
+					<div class="form-order__item">
+						<div class="form-order__text">
+							<span class="form-order__counter">
+								01
+							</span>
+							<div class="form-order__desc">Выберите начинку</div>
+						</div>
+						<div class="form-order__slider sider-form">
+							<div class="slider-form__wrap">
+								<div class="slider-form__item">
+									<div class="slider-form__img"><img src="./img/form-img.jpg" alt="#"></div>
+									<div class="slider-form__text">
+										<div class="slider-form__title">Шоколадный ганаш</div>
+										<div class="slider-form__desc">Ароматный шоколадный бисквит, густой шоколадный
+											крем – самый шоколадный из всех возможных десертов!</div>
+										<div class="slider-form__mass">1000 руб/кг</div>
+										<button class="slider-form__button btn">Выбрать</button>
+									</div>
+								</div>
+								<div class="slider-form__counter">1/12</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-order__item">
+						<div class="form-order__text">
+							<span class="form-order__counter">02</span>
+							<div class="form-order__desc">Размер</div>
+						</div>
+						<div class="form-order__size size-order ">
+							<div class="size-order__item size-order__item--xs">
+								<label for="" class="size-oder__lable"></label>
+								<input type="checkbox" class="size-order__input"><img src="./img/size_xs.jpg" alt="">
+								<span class="size-order__desc">17-18 см<br>(1 кг – 6 персон)</span>
+							</div>
+							<div class="size-order__item size-order__item--s">
+								<label for="" class="size-oder__lable"></label>
+								<input type="checkbox" class="size-order__input"><img src="./img/size_s.jpg" alt="">
+								<span class="size-order__desc">23-24 см<br>(10–12 персон)</span>
+							</div>
+							<div class="size-order__item size-order__item--m">
+								<label for="" class="size-oder__lable"></label>
+								<input type="checkbox" class="size-order__input"><img src="./img/size_m.jpg" alt="">
+								<span class="size-order__desc">Два яруса 25 и 20 см<br>(15–20 персон)</span>
+							</div>
+							<div class="size-order__item size-order__item--l">
+								<label for="" class="size-oder__lable"></label>
+								<input type="checkbox" class="size-order__input"><img src="./img/size_l.jpg" alt="">
+								<span class="size-order__desc">Три яруса 30,25 и 18 см <br> (25–30 персон)</span>
+							</div>
+						</div>
+					</div>
+					<div class="form-order__item">
+						<div class="form-order__text">
+							<span class="form-order__counter">
+								03
+							</span>
+							<div class="form-order__desc">Оформление</div>
+						</div>
+						<div class="form-order__slider sider-form">
+							<div class="slider-form__wrap">
+								<div class="slider-form__item">
+									<div class="slider-form__img"><img src="./img/form-img.jpg" alt="#"></div>
+									<div class="slider-form__text">
+										<div class="slider-form__title">Шоколадный ганаш</div>
+										<div class="slider-form__desc">Ароматный шоколадный бисквит, густой шоколадный
+											крем – самый шоколадный из всех возможных десертов!</div>
+										<div class="slider-form__mass">1000 руб/кг</div>
+										<button class="slider-form__button btn">Выбрать</button>
+									</div>
+								</div>
+								<div class="slider-form__counter">1/12</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="feedback _container">
+				<h4 class="feedback__title">Отзывы</h4>
+				<div class="feedback__slider slider-feedback">
+					<div class="slider-feedback__wrap">
+						<div class="slider-feedback__item">
+							<div class="slider-feedback__img">
+								<img src="./img/feedback-img.jpg" alt="#">
+							</div>
+							<div class="slider-feedback__text">
+								<div class="slider-feedback__name">Мария</div>
+								<p class="slider-feedback__desc">юрист, 33 года</p>
+								<p class="slider-feedback__desc">Заказывала торт брауни на юбилей мужа.Гости были в
+									восторге! Отдельное спасибо за своевременную доставку! Теперь будем заказывать
+									торты только у вас для наших семейных праздников</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
